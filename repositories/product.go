@@ -3,8 +3,9 @@ package repositories
 import (
 	"log"
 
-	"github.com/hoanggggg5/shopproduct/models"
 	"gorm.io/gorm"
+
+	"github.com/hoanggggg5/shopproduct/models"
 )
 
 type productRepository struct {
